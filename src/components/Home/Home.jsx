@@ -323,7 +323,7 @@ const Home = () => {
                                                    </div>
                                                 </div>
                                                 <div className="right-image-sec-tab col-span-6">
-                                                    <img src={RightMenu} className='rounded-2xl object-cover' alt="" />
+                                                    <img src={menu.menuImg} className='rounded-2xl object-cover' alt="" />
                                                 </div>
                                             </div>
                                         </TabPanel>
