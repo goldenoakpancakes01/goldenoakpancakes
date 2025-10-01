@@ -15,22 +15,25 @@ const Footer = () => {
     const socialIcons = [
         {
             img: InstaIcon,
-            link: ''
+            link: 'https://www.instagram.com/goldenoakpancakehouse?igsh=eWtqd2lpNHE1cjlq'
         },
         {
             img: FaceIcon,
-            link: ''
+            link: 'https://www.facebook.com/share/16bHCFvW81/?mibextid=wwXIfr'
         },
         {
             img: XIcon,
-            link: ''
+            link: 'https://x.com/oakpancake?s=11'
         },
-        {
-            img: LinkedIcon,
-            link: ''
-        },
+        // {
+        //     img: LinkedIcon,
+        //     link: ''
+        // },
     ]
 
+    const handleOpenSocial = (link) => {
+        window.open(link, "_blank");
+    };
   return (
     <div className="footer-main-section">
         <div className="inner-footer-section">
@@ -46,7 +49,7 @@ const Footer = () => {
                         <div className="social-icons flex items-center gap-6 mt-8">
                             {socialIcons.map((item , index) => {
                                 return (
-                                    <button type="button" key={index}>
+                                    <button type="button" key={index} onClick={() => handleOpenSocial(item.link)}>
                                         <img src={item.img} alt="" />
                                     </button>
                                 )
