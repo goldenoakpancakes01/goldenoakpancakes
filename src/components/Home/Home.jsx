@@ -211,6 +211,11 @@ const Home = () => {
     }
 
 
+    const handleOpenMaps = () => {
+        window.open("https://forms.gle/3WTFEN171CRdeAJt6", "_blank");
+    };
+
+
   return (
     <div className="Home-main-section">
         <div className="inner-home-main-section">
@@ -226,7 +231,7 @@ const Home = () => {
                                     </div>
                                     <div className="banner-buttons flex items-center gap-x-8 mt-12">
                                         <div className="button-left-home-sec-1"><button className='px-10 py-[10px] rounded-full bg-secondary text-white hover:bg-primary hover:text-Black' type="button" onClick={() => navigate('/menu')}>Open Menu</button></div>
-                                        <div className="button-right-home-sec-1"><button className='px-10 py-[10px] rounded-full bg-white text-secondary hover:bg-primary hover:text-Black' type="button">Join Us</button></div>
+                                        <div className="button-right-home-sec-1"><button className='px-10 py-[10px] rounded-full bg-white text-secondary hover:bg-primary hover:text-Black' type="button" onClick={handleOpenMaps}>Join Us</button></div>
                                     </div>
                                 </div>
                             </div>
