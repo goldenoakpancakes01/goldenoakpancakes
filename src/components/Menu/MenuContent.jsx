@@ -5,7 +5,13 @@ import BiscuitsGravy from '../../assets/images/menu-images/biscuits-gravy.png';
 import ButterMilkPancakes from '../../assets/images/menu-images/butter-milk-pancakes.png';
 import FrenchToast from '../../assets/images/menu-images/french-toast.png';
 import BelgianWaffles from '../../assets/images/menu-images/belgian-waffles.png';
-
+import LunchSpecials from '../../assets/images/menu-images/lunch-specials.png';
+import ChildrenMenu from '../../assets/images/menu-images/childrens-menu.png';
+import SidesAddOns from '../../assets/images/menu-images/sides-add-ons.png';
+import ThreeEggOmlets from '../../assets/images/menu-images/three-egg-omlets.png';
+import BreakFastSkillets from '../../assets/images/menu-images/breakfast-skillets.png';
+import BreakfastBurritos from '../../assets/images/menu-images/breakfast-burritos.png';
+import Beverages from '../../assets/images/menu-images/iced-tea.png'
 
 
 
@@ -208,7 +214,7 @@ const MenuData = [
     background: true,
     addOn: false,
     sideText: 'All sandwiches come with a choice of: cup of soup of the day, fruit, hash browns, or French fries.',
-    menuImg: "",
+    menuImg: LunchSpecials,
     menuList: [
       {
         menuTitle: "Cheeseburger",
@@ -325,7 +331,7 @@ const MenuData = [
     lunchSpecials: false,
     background: false,
     addOn: false,
-    menuImg: "",
+    menuImg: ChildrenMenu,
     menuList: [
       { menuTitle: "GOLDEN MOUSE PANCAKE ", menuDesc: "Served with whipped cream ", price: "7.99" },
       { menuTitle: "5 SILVER DOLLAR PANCAKES", menuDesc: "", price: "7.99" },
@@ -345,7 +351,7 @@ const MenuData = [
     lunchSpecials: false,
     background: true,
     addOn: false,
-    menuImg: "",
+    menuImg: SidesAddOns,
     menuList: [
       { menuTitle: "ADD-ONS ", menuDesc: "", price: "4.59" },
       { menuTitle: "3 SAUSAGE LINKS", menuDesc: "", price: "4.59" },
@@ -367,7 +373,7 @@ const MenuData = [
     lunchSpecials: false,
     background: false,
     addOn: false,
-    menuImg: "",
+    menuImg: Beverages,
     menuList: [
       { menuTitle: "COFFEE ", menuDesc: "", price: "3.59" },
       { menuTitle: "HOT TEA (Breakfast Blend, Green Tea, Chamomile)", menuDesc: "", price: "3.59" },
@@ -391,7 +397,7 @@ const MenuData = [
     addOn: true,
     addOnText: "ADD ANY TOPPING TO PANCAKES 1.99 each",
     sideText: "Served with hash browns or side of fresh fruit and choice of toast (white, wheat or rye) or pancakes. Egg Whites + 1.99. Add any veggie 1.00 Each. Add any meat $2.99 each.",
-    menuImg: "",
+    menuImg: ThreeEggOmlets,
     menuList: [
       {
         menuTitle: "GARDEN",
@@ -444,7 +450,7 @@ const MenuData = [
     addOn: false,
     addOnText: "",
     sideText: "Served with toast (white, wheat or rye) or pancakes. Add any veggie 1.00 Each. Add any meat $2.99 each.",
-    menuImg: "",
+    menuImg: BreakFastSkillets,
     menuList: [
       {
         menuTitle: "TEXAS THREE STEP",
@@ -507,7 +513,7 @@ const MenuData = [
     addOn: false,
     addOnText: "",
     sideText: "",
-    menuImg: "",
+    menuImg: BreakfastBurritos,
     menuList: [
       {
         menuTitle: "BREAKFAST BURRITO",

@@ -152,7 +152,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 100px 0px;
+    padding: 150px 0px;
 
     .home-sec-5-content {
         h2 {
@@ -261,6 +261,10 @@
 
 .home-section-9 {
     height: 450px;
+}
+
+.right-image-sec-tab img {
+    object-fit: cover;
 }
 
 

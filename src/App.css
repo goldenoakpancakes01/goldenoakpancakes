@@ -75,9 +75,9 @@ img {
 }
 
 .main-breadcrumb-similar {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
   .main-breadcrumb-similar {
       background: url("./assets/images/breadcrumb-menu.png");
@@ -90,4 +90,8 @@ img {
   .container {
     padding: 0px 20px !important;
   }
+}
+
+.right-image-sec-tab img {
+    object-fit: cover;
 }
