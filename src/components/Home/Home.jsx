@@ -47,27 +47,27 @@ const Home = () => {
         {
             img: Skillets,
             name: 'Skillets',
-            price: 5,
+            price: 14.99,
         },
         {
             img: Omelets,
             name: "Omelets",
-            price: 4,
+            price: 13.99,
         },
         {
             img: FrenchToast,
             name: 'French Toast',
-            price: 3,
+            price: 9.99,
         },
         {
             img: Pancakes,
             name: 'Pancakes',
-            price: 4,
+            price: 7.99,
         },
         {
             img: Waffles,
             name: 'Waffles',
-            price: 4,
+            price: 10.99,
         },
     ]
 
@@ -352,7 +352,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="home-section-6">
+            <section className="home-section-6 hidden">
                 <div className="inner-home-section-6">
                     <div className="container">
                         <div className="home-section-6-grid grid grid-cols-12 gap-x-12 items-center">
