@@ -1,13 +1,13 @@
 import React, { useState  } from 'react';
 import './Home.scss';
 import AboutImage from '../../assets/images/home-section-2-left-image.png';
+import AboutImageBlur from '../../assets/images/home-section-2-left-image-blur.png';
 import PrivateEvent from '../../assets/images/private-events.png';
 
-import Mimosas from '../../assets/images/mimosas.png';
-import BloodyMary from '../../assets/images/bloody-mary.png';
-import Drafts from '../../assets/images/drafts.png';
-import Wine from '../../assets/images/wine.png';
-import wellDrinks from '../../assets/images/well-drinks.png';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+
 import MenuTabs from './MenuTabs';
 import TabPanel from './TabPanel';
 import RightMenu from '../../assets/images/home-egg-menu-right.png';
