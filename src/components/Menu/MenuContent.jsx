@@ -59,32 +59,6 @@ const MenuData = [
     ],
   },
   {
-    title: "Healthy",
-    span: "Picks",
-    sideDes: false,
-    lunchSpecials: false,
-    background: true,
-    addOn: false,
-    menuImg: HealthyPicks,
-    menuList: [
-      {
-        menuTitle: "OATMEAL",
-        menuDesc: "Cinnamon or brown sugar, with fresh fruit",
-        price: "9.99",
-      },
-      {
-        menuTitle: "EGG WHITE SCRAMBLE ",
-        menuDesc: "Two egg whites scrambled with two turkey patties, with fresh fruit",
-        price: "11.99",
-      },
-      {
-        menuTitle: "FRESH FRUIT AND YOGURT",
-        menuDesc: " Yogurt, fresh strawberries, bananas topped with granola",
-        price: "10.99",
-      },
-    ],
-  },
-  {
     title: "Breakfast",
     span: "Bagels",
     sideDes: false,
@@ -107,6 +81,32 @@ const MenuData = [
         menuTitle: "BAGEL & EGG WHITE SANDWICH",
         menuDesc: "Two egg whites, spinach, feta cheese, turkey sausage",
         price: "12.99",
+      },
+    ],
+  },
+  {
+    title: "Healthy",
+    span: "Picks",
+    sideDes: false,
+    lunchSpecials: false,
+    background: true,
+    addOn: false,
+    menuImg: HealthyPicks,
+    menuList: [
+      {
+        menuTitle: "OATMEAL",
+        menuDesc: "Cinnamon or brown sugar, with fresh fruit",
+        price: "9.99",
+      },
+      {
+        menuTitle: "EGG WHITE SCRAMBLE ",
+        menuDesc: "Two egg whites scrambled with two turkey patties, with fresh fruit",
+        price: "11.99",
+      },
+      {
+        menuTitle: "FRESH FRUIT AND YOGURT",
+        menuDesc: " Yogurt, fresh strawberries, bananas topped with granola",
+        price: "10.99",
       },
     ],
   },
@@ -134,6 +134,155 @@ const MenuData = [
         price: "12.99",
       },
     ],
+  },
+  {
+    title: "3-Egg",
+    span: "Omelets",
+    sideDes: true,
+    lunchSpecials: false,
+    background: true,
+    addOn: true,
+    addOnText: "ADD ANY TOPPING TO PANCAKES 1.99 each",
+    sideText: "Served with hash browns or side of fresh fruit and choice of toast (white, wheat or rye) or pancakes. Egg Whites + 1.99. Add any veggie 1.00 Each. Add any meat $2.99 each.",
+    menuImg: ThreeEggOmlets,
+    menuList: [
+      {
+        menuTitle: "GARDEN",
+        menuDesc: "tomatoes, zucchini, onions, mushrooms, green peppers, spinach, American cheese",
+        price: "13.99"
+      },
+      {
+        menuTitle: "WESTERN",
+        menuDesc: "Ham, onions, green peppers, American cheese",
+        price: "13.99"
+      },
+      {
+        menuTitle: "COUNTRY",
+        menuDesc: "Ham, bacon, sausage, American cheese",
+        price: "14.99"
+      },
+      {
+        menuTitle: "SOUTH OF THE BORDER",
+        menuDesc: "Sausage, onions, green peppers, tomatoes, jalapeños, cheddar cheese",
+        price: "14.99"
+      },
+      {
+        menuTitle: "CHEESE OMELET",
+        menuDesc: "With American cheese 12.99 WITH HAM 13.99 WITH BACON 13.99 WITH SAUSAGE 13.99",
+        price: null
+      },
+      {
+        menuTitle: "MUSHROOM AND CHEESE",
+        menuDesc: "Mushrooms, American cheese",
+        price: "13.99"
+      },
+      {
+        menuTitle: "SPARTAN",
+        menuDesc: "Spinach, tomatoes, feta cheese",
+        price: "14.99"
+      },
+      {
+        menuTitle: "ITALIAN",
+        menuDesc: "Onion, tomato, green pepper, mozzarella cheese",
+        price: "13.99"
+      }
+    ]
+  },
+  {
+    title: "Breakfast",
+    span: "Skillets",
+    sideDes: true,
+    lunchSpecials: false,
+    background: false,
+    addOn: false,
+    addOnText: "",
+    sideText: "Served with toast (white, wheat or rye) or pancakes. Add any veggie 1.00 Each. Add any meat $2.99 each.",
+    menuImg: BreakFastSkillets,
+    menuList: [
+      {
+        menuTitle: "TEXAS THREE STEP",
+        menuDesc: "Hash browns, ham, bacon, sausage, cheddar cheese, three eggs* your way",
+        price: "15.99"
+      },
+      {
+        menuTitle: "IRISH",
+        menuDesc: "Hash browns, corned beef hash, onions, cheddar cheese, three eggs* your way",
+        price: "15.99"
+      },
+      {
+        menuTitle: "GARDEN",
+        menuDesc: "Hash browns, tomatoes, zucchini, onions, mushrooms, green peppers, spinach, cheddar cheese, three eggs* your way",
+        price: "14.99"
+      },
+      {
+        menuTitle: "SOUTH OF THE BORDER",
+        menuDesc: "Hash browns, sausage, onions, green peppers, tomatoes, jalapeños, cheddar cheese, three eggs* your way",
+        price: "15.99"
+      },
+      {
+        menuTitle: "GOLDEN",
+        menuDesc: "Hash browns, ham, bacon, sausage, onions, green peppers, mushrooms, cheddar cheese, three eggs* your way",
+        price: "16.99"
+      },
+      {
+        menuTitle: "SPARTAN",
+        menuDesc: "Hash browns, spinach, tomatoes, feta, three eggs* your way",
+        price: "15.99"
+      },
+      {
+        menuTitle: "ITALIAN SKILLET",
+        menuDesc: "Hash browns, onions, tomatoes, green pepper, mozzarella cheese, three eggs* your way",
+        price: "14.99"
+      },
+      {
+        menuTitle: "BACON & CHEDDAR",
+        menuDesc: "",
+        price: "14.99"
+      },
+      {
+        menuTitle: "HAM & CHEDDAR",
+        menuDesc: "",
+        price: "14.99"
+      },
+      {
+        menuTitle: "SAUSAGE & CHEDDAR",
+        menuDesc: "",
+        price: "14.99"
+      }
+    ]
+  },
+  {
+    title: "Breakfast",
+    span: "Burritos",
+    sideDes: false,
+    lunchSpecials: false,
+    background: true,
+    addOn: false,
+    addOnText: "",
+    sideText: "",
+    menuImg: BreakfastBurritos,
+    menuList: [
+      {
+        menuTitle: "BREAKFAST BURRITO",
+        menuDesc: "Three eggs scrambled, sausage, mozzarella cheese",
+        price: "11.99"
+      },
+      {
+        menuTitle: "SOUTH OF THE BORDER BURRITO",
+        menuDesc: "Three scrambled eggs, sausage, onion, green pepper, tomato, jalapeño, cheddar cheese",
+        price: "13.99"
+      },
+      {
+        menuTitle: "GARDEN BURRITO",
+        menuDesc: "Three eggs scrambled, tomatoes, zucchini, onions, mushrooms, green peppers, spinach, cheddar cheese",
+        price: "13.99"
+      },
+      {
+        menuTitle: "COUNTRY BURRITO",
+        menuDesc: "Three eggs scrambled, ham, bacon, sausage, cheddar cheese with gravy on top",
+        price: "15.99"
+      }
+    ]
   },
   {
     title: "Buttermilk",
@@ -325,26 +474,6 @@ const MenuData = [
     ],
   },
   {
-    title: "Children's",
-    span: "Menu",
-    sideDes: false,
-    lunchSpecials: false,
-    background: false,
-    addOn: false,
-    menuImg: ChildrenMenu,
-    menuList: [
-      { menuTitle: "GOLDEN MOUSE PANCAKE ", menuDesc: "Served with whipped cream ", price: "7.99" },
-      { menuTitle: "5 SILVER DOLLAR PANCAKES", menuDesc: "", price: "7.99" },
-      { menuTitle: "3 MINI CHOCOLATE CHIP PANCAKES ", menuDesc: "", price: "8.99" },
-      { menuTitle: "2 EGGS SCRAMBLED WITH", menuDesc: "2 SAUSAGE LINKS OR 2 BACON AND TOAST", price: "9.99" },
-      {
-        menuTitle: "WAFFLE COMBO",
-        menuDesc: "Plain waffle, two eggs any style, two bacon strips, two sausage links",
-        price: "14.99",
-      },
-    ],
-  },
-  {
     title: "Sides & ",
     span: "Add-Ons",
     sideDes: false,
@@ -364,6 +493,26 @@ const MenuData = [
       { menuTitle: "CUP OF GRAVY ", menuDesc: "", price: "3.99" },
       { menuTitle: "EXTRA CHEESE ", menuDesc: "", price: "1.99" },
       { menuTitle: "ONE EGG  ", menuDesc: "", price: "1.99" }
+    ],
+  },
+  {
+    title: "Children's",
+    span: "Menu",
+    sideDes: false,
+    lunchSpecials: false,
+    background: false,
+    addOn: false,
+    menuImg: ChildrenMenu,
+    menuList: [
+      { menuTitle: "GOLDEN MOUSE PANCAKE ", menuDesc: "Served with whipped cream ", price: "7.99" },
+      { menuTitle: "5 SILVER DOLLAR PANCAKES", menuDesc: "", price: "7.99" },
+      { menuTitle: "3 MINI CHOCOLATE CHIP PANCAKES ", menuDesc: "", price: "8.99" },
+      { menuTitle: "2 EGGS SCRAMBLED WITH", menuDesc: "2 SAUSAGE LINKS OR 2 BACON AND TOAST", price: "9.99" },
+      {
+        menuTitle: "WAFFLE COMBO",
+        menuDesc: "Plain waffle, two eggs any style, two bacon strips, two sausage links",
+        price: "14.99",
+      },
     ],
   },
   {
@@ -388,155 +537,6 @@ const MenuData = [
       { menuTitle: "CHOCOLATE MILK (no free refills)", menuDesc: "", price: "3.59" }
     ],
   },
-  {
-    title: "3-Egg",
-    span: "Omelets",
-    sideDes: true,
-    lunchSpecials: false,
-    background: true,
-    addOn: true,
-    addOnText: "ADD ANY TOPPING TO PANCAKES 1.99 each",
-    sideText: "Served with hash browns or side of fresh fruit and choice of toast (white, wheat or rye) or pancakes. Egg Whites + 1.99. Add any veggie 1.00 Each. Add any meat $2.99 each.",
-    menuImg: ThreeEggOmlets,
-    menuList: [
-      {
-        menuTitle: "GARDEN",
-        menuDesc: "tomatoes, zucchini, onions, mushrooms, green peppers, spinach, American cheese",
-        price: "13.99"
-      },
-      {
-        menuTitle: "WESTERN",
-        menuDesc: "Ham, onions, green peppers, American cheese",
-        price: "13.99"
-      },
-      {
-        menuTitle: "COUNTRY",
-        menuDesc: "Ham, bacon, sausage, American cheese",
-        price: "14.99"
-      },
-      {
-        menuTitle: "SOUTH OF THE BORDER",
-        menuDesc: "Sausage, onions, green peppers, tomatoes, jalapeños, cheddar cheese",
-        price: "14.99"
-      },
-      {
-        menuTitle: "CHEESE OMELET",
-        menuDesc: "With American cheese 12.99 WITH HAM 13.99 WITH BACON 13.99 WITH SAUSAGE 13.99",
-        price: null
-      },
-      {
-        menuTitle: "MUSHROOM AND CHEESE",
-        menuDesc: "Mushrooms, American cheese",
-        price: "13.99"
-      },
-      {
-        menuTitle: "SPARTAN",
-        menuDesc: "Spinach, tomatoes, feta cheese",
-        price: "14.99"
-      },
-      {
-        menuTitle: "ITALIAN",
-        menuDesc: "Onion, tomato, green pepper, mozzarella cheese",
-        price: "13.99"
-      }
-    ]
-  },
-  {
-    title: "Breakfast",
-    span: "Skillets",
-    sideDes: true,
-    lunchSpecials: false,
-    background: false,
-    addOn: false,
-    addOnText: "",
-    sideText: "Served with toast (white, wheat or rye) or pancakes. Add any veggie 1.00 Each. Add any meat $2.99 each.",
-    menuImg: BreakFastSkillets,
-    menuList: [
-      {
-        menuTitle: "TEXAS THREE STEP",
-        menuDesc: "Hash browns, ham, bacon, sausage, cheddar cheese, three eggs* your way",
-        price: "15.99"
-      },
-      {
-        menuTitle: "IRISH",
-        menuDesc: "Hash browns, corned beef hash, onions, cheddar cheese, three eggs* your way",
-        price: "15.99"
-      },
-      {
-        menuTitle: "GARDEN",
-        menuDesc: "Hash browns, tomatoes, zucchini, onions, mushrooms, green peppers, spinach, cheddar cheese, three eggs* your way",
-        price: "14.99"
-      },
-      {
-        menuTitle: "SOUTH OF THE BORDER",
-        menuDesc: "Hash browns, sausage, onions, green peppers, tomatoes, jalapeños, cheddar cheese, three eggs* your way",
-        price: "15.99"
-      },
-      {
-        menuTitle: "GOLDEN",
-        menuDesc: "Hash browns, ham, bacon, sausage, onions, green peppers, mushrooms, cheddar cheese, three eggs* your way",
-        price: "16.99"
-      },
-      {
-        menuTitle: "SPARTAN",
-        menuDesc: "Hash browns, spinach, tomatoes, feta, three eggs* your way",
-        price: "15.99"
-      },
-      {
-        menuTitle: "ITALIAN SKILLET",
-        menuDesc: "Hash browns, onions, tomatoes, green pepper, mozzarella cheese, three eggs* your way",
-        price: "14.99"
-      },
-      {
-        menuTitle: "BACON & CHEDDAR",
-        menuDesc: "",
-        price: "14.99"
-      },
-      {
-        menuTitle: "HAM & CHEDDAR",
-        menuDesc: "",
-        price: "14.99"
-      },
-      {
-        menuTitle: "SAUSAGE & CHEDDAR",
-        menuDesc: "",
-        price: "14.99"
-      }
-    ]
-  },
-  {
-    title: "Breakfast",
-    span: "Burritos",
-    sideDes: false,
-    lunchSpecials: false,
-    background: true,
-    addOn: false,
-    addOnText: "",
-    sideText: "",
-    menuImg: BreakfastBurritos,
-    menuList: [
-      {
-        menuTitle: "BREAKFAST BURRITO",
-        menuDesc: "Three eggs scrambled, sausage, mozzarella cheese",
-        price: "11.99"
-      },
-      {
-        menuTitle: "SOUTH OF THE BORDER BURRITO",
-        menuDesc: "Three scrambled eggs, sausage, onion, green pepper, tomato, jalapeño, cheddar cheese",
-        price: "13.99"
-      },
-      {
-        menuTitle: "GARDEN BURRITO",
-        menuDesc: "Three eggs scrambled, tomatoes, zucchini, onions, mushrooms, green peppers, spinach, cheddar cheese",
-        price: "13.99"
-      },
-      {
-        menuTitle: "COUNTRY BURRITO",
-        menuDesc: "Three eggs scrambled, ham, bacon, sausage, cheddar cheese with gravy on top",
-        price: "15.99"
-      }
-    ]
-  }
 ];
 
 export default MenuData;

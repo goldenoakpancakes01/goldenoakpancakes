@@ -6,6 +6,7 @@ import InstaIcon from '../../assets/images/insta.svg';
 import FaceIcon from '../../assets/images/facebook.svg';
 import XIcon from '../../assets/images/twitter.svg';
 import LinkedIcon from '../../assets/images/linked-in.svg';
+import GoogleIcon from '../../assets/images/google-icon.svg';
 import { NavLink } from 'react-router-dom';
 
 
@@ -25,10 +26,10 @@ const Footer = () => {
             img: XIcon,
             link: 'https://x.com/oakpancake?s=11'
         },
-        // {
-        //     img: LinkedIcon,
-        //     link: ''
-        // },
+        {
+            img: GoogleIcon,
+            link: 'https://share.google/t7kOzTsInDadBoimC'
+        },
     ]
 
     const handleOpenSocial = (link) => {

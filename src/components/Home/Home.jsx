@@ -62,7 +62,7 @@ const Home = () => {
         {
             img: Pancakes,
             name: 'Pancakes',
-            price: 7.99,
+            price: 9.99,
         },
         {
             img: Waffles,
@@ -279,8 +279,8 @@ const Home = () => {
                                         <div className="drinks-images-sec-3 relative">
                                             <img src={item.img} alt="" />
                                             <div className="abs-sec-3-detail-card flex items-center justify-between gap-x-4 absolute bottom-[10px] left-0 w-full bg-white px-5 py-3 ">
-                                                <p className='font-manrope text-lg font-medium text-Black'>{item.name}</p>
-                                                <p className='text-secondary font-semibold font-plusjakarta text-xl'>${item.price}</p>
+                                                <p className='font-manrope font-medium text-Black'>{item.name}</p>
+                                                <p className='text-secondary font-semibold font-plusjakarta text-lg'>${item.price}</p>
                                             </div>
                                         </div>
                                     </div>
