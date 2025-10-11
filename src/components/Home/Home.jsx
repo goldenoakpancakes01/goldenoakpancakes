@@ -529,7 +529,7 @@ const Home = () => {
                                     <div className="para-block-content-sec flex flex-col gap-y-5">
                                         <p>Host your celebrations in our exclusive private event space, designed for intimate gatherings, corporate dinners, and special occasions. With a warm ambiance, personalized service, and exceptional cuisine, we create the perfect backdrop for unforgettable moments.</p>
                                     </div>
-                                    <div className="similar-block-button"><button className='px-10 py-[10px] rounded-full bg-secondary text-white hover:bg-primary hover:text-Black' type="button">Know More</button></div>
+                                    <div className="similar-block-button"><button className='px-10 py-[10px] rounded-full bg-secondary text-white hover:bg-primary hover:text-Black' type="button" onClick={() => navigate('/event-space')}>Know More</button></div>
                                 </div>
                             </div>
                             <div className="col-span-6 left-home-section-8 similar-home-sec-8-cols">
