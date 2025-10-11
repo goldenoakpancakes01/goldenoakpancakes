@@ -337,7 +337,7 @@ const Home = () => {
                                 })}
                             </div>
                             <div className="col-span-4 sec-4-full-menu-mobile-btn">
-                                <div className="block-button"><button className='px-10 py-[10px] rounded-full bg-secondary text-white hover:bg-primary hover:text-Black' type="button">View complete menu</button></div>
+                                <div className="block-button"><button className='px-10 py-[10px] rounded-full bg-secondary text-white hover:bg-primary hover:text-Black' type="button" onClick={() => navigate('/menu')}>View complete menu</button></div>
                             </div>
                         </div>
                     </div>
