@@ -12,6 +12,7 @@ import MenuTabs from './MenuTabs';
 import TabPanel from './TabPanel';
 import RightMenu from '../../assets/images/home-egg-menu-right.png';
 import WeeklySpec from '../../assets/images/weekly-specials.png';
+import BurgerImage from '../../assets/images/burgers-home-page.png';
 import CalendarIcon from '../../assets/images/timings-calendar.svg';
 import { contactFormValidation } from '../../utils/Validation';
 
@@ -280,7 +281,7 @@ const Home = () => {
                                             <img src={item.img} alt="" />
                                             <div className="abs-sec-3-detail-card flex items-center justify-between gap-x-4 absolute bottom-[10px] left-0 w-full bg-white px-5 py-3 ">
                                                 <p className='font-manrope font-medium text-Black'>{item.name}</p>
-                                                <p className='text-secondary font-semibold font-plusjakarta text-lg'>${item.price}</p>
+                                                {/* <p className='text-secondary font-semibold font-plusjakarta text-lg'>${item.price}</p> */}
                                             </div>
                                         </div>
                                     </div>
@@ -352,15 +353,15 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="home-section-6 hidden">
+            <section className="home-section-6">
                 <div className="inner-home-section-6">
                     <div className="container">
                         <div className="home-section-6-grid grid grid-cols-12 gap-x-12 items-center">
                             <div className="col-span-6 left-home-section-6 similar-home-sec-6-cols">
-                                <img src={WeeklySpec} className='rounded-2xl' alt="" />
+                                <img src={BurgerImage} className='rounded-2xl' alt="" />
                             </div>
                             <div className="col-span-6 right-home-section-6 similar-home-sec-6-cols">
-                                <div className="block-content-section">
+                                <div className="block-content-section hidden">
                                     <h2>Weekly Specials</h2>
                                     <div className="extra-para-head-home-sec-6 flex items-center gap-x-5">
                                         <h2><span>Early Bird</span></h2>
@@ -370,6 +371,12 @@ const Home = () => {
                                         <p>Two Eggs, Two Strips of Bacon, Hash Browns, Toast for  $9.99 </p>
                                     </div>
                                     <div className="similar-block-button"><button className='px-10 py-[10px] rounded-full bg-secondary text-white hover:bg-primary hover:text-Black' type="button" onClick={() => navigate('/menu')}>View Menu</button></div>
+                                </div>
+                                <div className="block-content-section">
+                                    <h2>Golden Oak’s <br /> <span>Signature Burger Bliss</span></h2>
+                                    <div className="para-block-content-sec flex flex-col gap-y-5">
+                                        <p>Juicy, cheesy, and grilled to perfection — every bite’s a flavor explosion. Our handcrafted burgers are made with premium beef, melted cheese, and fresh toppings, all served hot off the grill. It’s comfort food, the <strong>Golden Oak way</strong>.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
